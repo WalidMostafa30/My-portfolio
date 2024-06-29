@@ -3,7 +3,7 @@ import GuessGameImg from "../Images/guess-game.webp";
 import QuranImg from "../Images/quran-app.webp";
 import weatherimg from "../Images/weather-app.webp";
 import quizimg from "../Images/quiz-app.webp";
-import DragTodoImg from "../Images/drag&drop-todo.webp";
+import DragTodoImg from "../Images/to-do.webp";
 import ProfileImg from "../Images/profile.webp";
 import ageCalculatorImg from "../Images/age-calculator.webp";
 

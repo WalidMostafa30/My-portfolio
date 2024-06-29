@@ -11,11 +11,15 @@ const Project = ({ pro }) => {
         <img src={pro.img} alt="img" />
 
         <div className="Portfolio__project-btns">
-          <a href={pro.github} className="Portfolio__project-btn">
+          <a
+            target="_blank"
+            href={pro.github}
+            className="Portfolio__project-btn"
+          >
             GitHub
             <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href={pro.demo} className="Portfolio__project-btn">
+          <a target="_blank" href={pro.demo} className="Portfolio__project-btn">
             Demo
             <FontAwesomeIcon icon={faEye} />
           </a>
