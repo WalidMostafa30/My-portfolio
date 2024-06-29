@@ -1,0 +1,21 @@
+.Skills {
+  .Skills__all-skills {
+    background-color: var(--main-card-color);
+    box-shadow: var(--main-shadow);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .Skills__skill {
+    min-width: calc(100% / 5);
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 15px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 5px;
+  }
+}

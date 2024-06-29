@@ -1,0 +1,45 @@
+.Contact {
+  .Contact__container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .Contact__talkToMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    flex-grow: 1;
+  }
+
+  .Contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    flex-grow: 1;
+  }
+
+  .Contact__form-input {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-light-color);
+    padding: 15px;
+    border-radius: 10px;
+
+    textarea {
+      min-height: 150px;
+      max-height: 350px;
+    }
+
+    input,
+    textarea {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      font-size: 20px;
+    }
+  }
+}

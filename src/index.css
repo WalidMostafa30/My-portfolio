@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--main-text-color);
+  transition: 0.3s;
+}
+
+:root {
+  --main-color: #6c55e0;
+  --main-light-color: #6c55e0ad;
+  --main-bg-color: #fafafa;
+  --main-text-color: black;
+  --main-p-color: #757575;
+  --main-card-color: white;
+  --main-shadow: 0px 0px 11px -3px #6c55e0;
+  --main-trans: translateY(-5px);
+}
+
+.dark {
+  --main-bg-color: #1a1525;
+  --main-text-color: white;
+  --main-card-color: black;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--main-bg-color) !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+i {
+  margin: 0 !important;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+p {
+  color: var(--main-p-color);
+}
+
+.main-btn {
+  background-color: var(--main-color);
+  color: white;
+  width: fit-content;
+  border: none;
+  padding: 20px 40px;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: var(--main-shadow);
+
+  path,
+  svg {
+    color: white;
+    margin-left: 10px;
+  }
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 11px 3px #6c55e0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
+
+section {
+  padding: 80px 0;
+
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
+}

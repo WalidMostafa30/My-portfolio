@@ -1,0 +1,12 @@
+.Services {
+  .Services__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .Services__card {
+    min-width: calc(100% / 3 );
+    flex-grow: 1;
+  }
+}

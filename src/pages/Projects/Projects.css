@@ -1,0 +1,17 @@
+.Projects {
+  .Swiper {
+    padding: 60px 10px;
+
+    .swiper-pagination {
+      span {
+        width: 20px;
+        height: 20px;
+        background-color: var(--main-text-color);
+
+        &.swiper-pagination-bullet-active-main {
+          background-color: var(--main-color);
+        }
+      }
+    }
+  }
+}
